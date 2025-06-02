@@ -1,0 +1,68 @@
+:root {
+    --bs-body-font-family: 'sriracha', sans-serif;
+}
+
+html,
+body {
+    min-height: 380vh;
+    height: 100%;
+    padding-top: 20px;
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 80px;
+}
+
+footer {
+    height: 100%;
+    min-height: 75vh;
+}
+
+h1 {
+    padding-top: 30px;
+    color: #e2e1e1;
+}
+
+h2 {
+    color: #979797;
+}
+
+.carousel-item {
+    height: 281px;
+}
+
+.carousel {
+    width: 500px;
+}
+
+.owl-carousel {
+    width: 100%;
+}
+
+/* hover effects */
+.nav-link {
+    color: aliceblue;
+    transition: all 0.4s;
+    border-radius: 70px;
+}
+
+.nav-link:hover {
+    color: rgb(0, 135, 176);
+    box-shadow: 0 7px 4px -1px rgba(0, 135, 179, 0.3);
+}
+
+/* delay */
+.nav-link::after {
+    transition: all 0.2s;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after {
+    opacity: 1;
+}
