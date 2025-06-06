@@ -77,3 +77,20 @@ h2 {
 .nav-link:focus::after {
     opacity: 1;
 }
+
+/* scrollbar */
+/* Targets Chrome, Safari, Edge */
+::-webkit-scrollbar {
+    width: 8px;
+    /* or whatever size you like */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(25, 100, 127);
+    /* or rgba(0,0,0,0.1) for slight visibility */
+    border-radius: 4px;
+}
