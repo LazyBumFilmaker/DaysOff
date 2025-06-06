@@ -90,7 +90,7 @@ h2 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(25, 100, 127);
+    
     /* or rgba(0,0,0,0.1) for slight visibility */
     border-radius: 4px;
 }
