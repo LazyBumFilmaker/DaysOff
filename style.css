@@ -15,7 +15,12 @@ body {
 }
 
 .navbar {
-    height: 80px;
+    min-height: 80px;
+}
+
+.custom-navbar-brand {
+    font-size: 25rem;
+    /* adjust size */
 }
 
 footer {
@@ -49,11 +54,14 @@ h2 {
     color: aliceblue;
     transition: all 0.4s;
     border-radius: 70px;
+    padding: 0.5rem 1rem;
+    display: inline-block;
 }
 
 .nav-link:hover {
     color: rgb(0, 135, 176);
     box-shadow: 0 7px 4px -1px rgba(0, 135, 179, 0.3);
+    padding: .7rem 1.5rem;
 }
 
 /* delay */
